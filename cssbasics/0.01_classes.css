@@ -1,0 +1,14 @@
+body
+{
+	background-color:lightgray;
+}
+html
+{
+	font-family:helvetica, sans-serif;
+}
+.x
+{
+	font-size:200%;
+	color:red;
+	font-style: italic;
+}

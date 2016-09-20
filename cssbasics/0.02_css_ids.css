@@ -1,0 +1,16 @@
+body
+{
+	background-color:lightgray; 
+	font-family:helvetica;
+	font-size:14px;
+}
+#number-one
+{
+	color:red;
+}
+.first-class
+{
+	font-style:italic;
+	font-size: 20px;
+}
+/*One id to one element, classes can be used and combined in multiple elements*/
