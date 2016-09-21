@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html style="background-color:#000000">
+
+<head>
+	<title>fundamentals.</title>
+	<link rel="stylesheet" type="text/css" href="webstore.css">
+</head>
+<body>
+<!--Text-->	
+	<div class="htext">
+		<h1 class="h1" style="font-family:Verdana, Geneva, sans-serif; color:#ffffff; opacity: 0.5; font-size:30px; text-indent:25px">
+			<i>fundamentals.</i>
+		</h1>
+	</div>
+<!--Animation-->
+	<div class="bgv_0">
+    	<video loop muted autoplay class="bgv_1">
+        	<source src="file:///Users/jonathaneyster/Desktop/fundamentals/Webstore%20project/spiritedaway.webm" type="video/webm">
+        	<source src="file:///Users/jonathaneyster/Desktop/fundamentals/Webstore%20project/spiritedaway.mp4" type="video/mp4">
+        	<source src="file:///Users/jonathaneyster/Desktop/fundamentals/Webstore%20project/spiritedaway.ogv" type="video/ogv">
+    	</video>
+	</div>
+<!--Sidebar-->
+	<div style="font-family:ostrich-sans; color:#ffffff; opacity: .5" id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 		 <a href="webstore_audio.html">Audio</a>
+ 		 <a href="#">Video</a>
+ 		 <a href="#">Portfolio</a>
+ 		 <a href="#">About Me</a>
+	</div>
+
+	<span onclick="openNav()">
+		<p class="h2" style="color:#ffffff; opacity: .75; font-size:75px">
+			E N T E R
+		</p>
+	</span>
+<!--SVG
+	<div class="svg_0">	
+		<svg class="svg_0" preserveAspectRatio="xMidYMid" viewBox="0 0 300 500" width="400" height="150">
+  			<rect width="300" height="100" style="fill:rgb(255,255,255);stroke-width:5;stroke:rgb(0,0,0); stroke-opacity:.9; opacity:.4"/>
+		</svg>
+  	</div>
+-->
+<!--Javascript-->
+	<script type="text/javascript">
+		function openNav() 
+		{
+    		document.getElementById("mySidenav").style.width = "250px";
+		}
+		function closeNav() 
+		{
+    		document.getElementById("mySidenav").style.width = "0";
+		}
+		function openNav() 
+		{
+    		document.getElementById("mySidenav").style.width = "250px";
+    		document.getElementById("main").style.marginRight = "250px";
+		}
+		function closeNav() 
+		{
+    		document.getElementById("mySidenav").style.width = "0";
+    		document.getElementById("main").style.marginRight = "0";
+		}
+	</script>
+</body>
+</html>

@@ -1,9 +1,21 @@
+body
+{
+	font-family: helvetica;
+}
+
 h1
 {
 	text-align: center;
 }
-.x
+
+#y
 {
-	width="200"; 
-	height="200";
+	width: 200px; 
+	height: 200px;
+}
+
+.margins
+{
+	border:2px solid blue;
+	margin: 75px 75px 75px 75px;	
 }
