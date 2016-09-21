@@ -16,7 +16,16 @@
   -webkit-animation:fadeIn ease-in 1;
   -webkit-animation-fill-mode:forwards;
   -webkit-animation-duration:.8s;
-  -webkit-animation-delay: .3s;
+  -webkit-animation-delay: .4s;
+}
+.h4
+{
+  font-family: ostrich-sans; 
+  opacity: 0;
+  -webkit-animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-duration:.8s;
+  -webkit-animation-delay: .6s; 
 }
 .h2 a, a:visited
 {
