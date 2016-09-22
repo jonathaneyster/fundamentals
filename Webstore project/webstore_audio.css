@@ -9,6 +9,14 @@
 {
   cursor:pointer;
 }
+#ab
+{
+  cursor:pointer;
+}
+#ac
+{
+  cursor:pointer; 
+}
 #h1
 {
    text-shadow: 2px 5px 2px #000000;
@@ -32,8 +40,23 @@
 {
   font-family: ostrich-sans;
 }
+div.item 
+{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+.caption 
+{ 
+    display: block;
+    font-family: ostrich-sans;
+    font-size: 24px;
+    color: #ffffff;
+}
 
-span {
+.backbutton
+{
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
